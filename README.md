@@ -12,8 +12,24 @@
 | Day 8 | Function Parameters & Caesar Cipher  |
 | Day 9 | Dictionaries, Nesting and the Secret Auction  |
 | Day 10 | Functions with Outputs  |
-| Day 11 | Scope & Number Guessing Game  |
-| Day 12 | Debugging_ How to Find and Fix Errors in your Code  |
-| Day 13 | Higher Lower Game Project  |
-| Day 14 | Local Development Environment Setup & the Coffee Machine  |
-| Day 15 | Object Oriented Programming (OOP)  |
+| Day 11 | The Blackjack Capstone Project  |
+| Day 12 | Scope & Number Guessing Game  |
+| Day 13 | Debugging_ How to Find and Fix Errors in your Code  |
+| Day 14 | Higher Lower Game Project  |
+| Day 15 | Local Development Environment Setup & the Coffee Machine  |
+| Day 16 | Object Oriented Programming (OOP)  |
+| Day 17 | The Quiz Project & the Benefits of OOP  |
+| Day 18 | Turtle & the Graphical User Interface (GUI)  |
+| Day 19 | Instances, State and Higher Order Functions  |
+| Day 20 | Build the Snake Game Part 1_ Animation & Coordinates  |
+| Day 21 | Build the Snake Game Part 2_ Inheritance & List Slicing  |
+| Day 22 | Build Pong_ The Famous Arcade Gam  |
+| Day 23 | The Turtle Crossing Capstone Proje  |
+| Day 24 | Files, Directories and Paths  |
+| Day 25 | Working with CSV Data and the Pandas Library  |
+| Day 26 | List Comprehension and the NATO Alphabet  |
+| Day 27 | Tkinter, _args, __kwargs and Creating GUI Programs  |
+| Day 28 | Tkinter, Dynamic Typing and the Pomodoro GUI Application  |
+| Day 29 | Building a Password Manager GUI App with Tkinter  |
+| Day 30 | Errors, Exceptions and JSON Data_ Improving the Password  |
+
