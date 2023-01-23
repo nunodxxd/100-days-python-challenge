@@ -21,7 +21,8 @@ class NotificationManager:
         
     def send_email(self,flight_data,emails=[]):
         title = f"Low price alert to {flight_data.destination_city}!"
-        link = f"https://www.google.com/flights?hl=en#flt={flight_data.origin_airport}.{flight_data.destination_airport}.{flight_data.out_date}*{flight_data.destination_airport}.{flight_data.origin_airport}.{flight_data.return_date}"
+        #replace the link to google search bc google flights not work
+        link = f"https://www.google.com/search?q={flight_data.origin_city}-{flight_data.origin_airport}+to+{flight_data.destination_city}-{flight_data.destination_airport}+from+{flight_data.out_date}+to+{flight_data.return_date}"
         body = f"Only {flight_data.price}€ to fly from {flight_data.origin_city}-{flight_data.origin_airport} to {flight_data.destination_city}-{flight_data.destination_airport}, from {flight_data.out_date} to {flight_data.return_date}. \n{link}"
         if flight_data.stop_overs > 0:
             body = f"Low price alert! Only {flight_data.price}€ to fly from {flight_data.origin_city}-{flight_data.origin_airport} to {flight_data.destination_city}-{flight_data.destination_airport}, from {flight_data.out_date} to {flight_data.return_date} with {flight_data.stop_overs} stop over(s) in {flight_data.via_city}. \n{link}"
