@@ -1,0 +1,62 @@
+
+##### Color #####
+
+Color Theory - Moods:
+
+- Red - Passion, Love, Danger, etc.
+- Orange - Excitement, Energy, etc.
+- Yellow - Happiness, Cheerful, etc.
+- Green - Nature, Fresh, etc.
+- Blue - Calm, Peaceful, etc.
+- Purple - Royalty, Luxury, etc.
+
+Color Theory - Color Wheel:
+
+- Analogous Colors: 2 colors next to each other on the color wheel
+- Complimentary Colors: 2 colors opposite each other on the color wheel
+- Triadic Colors: 3 colors equally spaced on the color wheel
+
+
+##### Typography #####
+
+Typography - The Emotion behind fonts:
+
+Serif - Old, Traditional, Formal, Serious, Trustworthy, Reliable, etc.
+Sans Serif - Modern, Clean, Simple, etc.
+Script - Fun, Playful, etc.
+display - Bold, Big, Amusing, etc.
+modern - Stylish, Chic, Smart, etc.
+
+Use only 2-3 fonts in a design (1 for heading, 1 for body, 1 for special)
+- Similar mood
+- Similar time era
+- constrat Serif
+- constrat weights
+
+##### Layout #####
+
+Keys ti a Good UI Design:
+
+1. Hierarchy
+    1. Colour
+    2. Size
+2. Layout
+    1. size of each text (6 - 8 words per line)
+3. Alignment
+4. white space
+5. Audience
+
+Keys to a Good UX Design:
+
+1. Simplicity
+2. Consistency
+3. Readging patterns (F-pattern, Z-pattern, etc.)
+4. All platform Design (Mobile, Desktop, Tablet, etc.)
+
+##### Links to Design Resources: #####
+
+https://color.adobe.com/create/color-wheel
+https://colorhunt.co/
+https://www.canva.com/
+https://www.dailyui.co/
+https://collectui.com/
