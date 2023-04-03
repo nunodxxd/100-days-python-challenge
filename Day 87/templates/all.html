@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block content %}
+    <div class="card-deck">
+        {% for cafe in cafes %}
+            <div class="card card-horizontal">
+                <div class="row no-gutters">
+                    <div class="col-md-4">
+                        <img src="{{ cafe.img_url }}" class="card-img" alt="{{ cafe.name }}">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">{{ cafe.name }}</h5>
+                            <p class="card-text">Localização: {{ cafe.location }}</p>
+                            <p class="card-text">Preço do café: {{ cafe.coffee_price }}</p>
+                            <p class="card-text">Possui tomadas: {{ cafe.has_sockets }}</p>
+                            <p class="card-text">Possui banheiro: {{ cafe.has_toilet }}</p>
+                            <p class="card-text">Possui Wi-Fi: {{ cafe.has_wifi }}</p>
+                            <p class="card-text">Pode receber ligações: {{ cafe.can_take_calls }}</p>
+                            <p class="card-text">Quantidade de assentos: {{ cafe.seats }}</p>
+                            <a href="{{ cafe.map_url }}" class="btn btn-primary">Ver no mapa</a>
+                            <form method="POST" action="{{ url_for('delete_cafe', cafe_id=cafe.id) }}">
+                                <button type="submit" class="btn btn-danger">Reportar como fechado</button>
+                            </form>                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>    
+{% endblock %}
